@@ -30,6 +30,4 @@ double sumRevenueByDateAndSector(
     @Param("endOfDay") LocalDateTime endOfDay,
     @Param("sector") String sector);
 
-
-
 }
