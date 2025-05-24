@@ -15,7 +15,7 @@ Tem uma base de dados rodando via Docker Compose.
 ## Tecnologias
 
 - Java 21
-- Spring Boot 3.4.x
+- Spring Boot 3.3.12
 - Docker, Docker Compose
 - Springdoc OpenAPI (Swagger)
 - Maven
