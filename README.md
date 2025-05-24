@@ -14,7 +14,7 @@ Tem uma base de dados rodando via Docker Compose.
 
 ## Tecnologias
 
-- Java 17+
+- Java 21
 - Spring Boot 3.4.x
 - Docker, Docker Compose
 - Springdoc OpenAPI (Swagger)
@@ -181,7 +181,7 @@ Request (query params ou body JSON):
 
 Após rodar a aplicação, acesse:
 ```
-http://localhost:8080/swagger-ui.html
+http://localhost:3003/swagger-ui.html
 ```
 
 ---
