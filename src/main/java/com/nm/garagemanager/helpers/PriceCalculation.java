@@ -1,5 +1,8 @@
 package com.nm.garagemanager.helpers;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class PriceCalculation {
     public double calculatePrice(double basePrice, int currentOccupancy, int maxCapacity){
         double occupancyRate = (double) currentOccupancy / maxCapacity;

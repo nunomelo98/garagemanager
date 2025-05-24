@@ -1,6 +1,5 @@
 package com.nm.garagemanager.entity;
 
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -8,17 +7,13 @@ import jakarta.persistence.Id;
 import lombok.Data;
 
 @Data
-@Entity(name ="garagesector")
-public class GarageSector {
+@Entity(name = "sector_status")
+public class SectorStatus {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long Id;
+    private Long id;
     private String sector;
-    private double base_price;
-    private int max_capacity;
-    private String open_hour;
-    private  String close_hour;
-    private int duration_limit_minutes;
-
+    private int current_occupancy = 0;
+    private Boolean is_closed;
 
 }
